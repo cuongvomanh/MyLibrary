@@ -1,8 +1,8 @@
 # must run before:
 # source ~/mypython/computer_vision/p3env/bin/python3
 lib='zemcy'
-ve_python=python3
-ve_pip=pip3
+ve_python=python
+ve_pip=pip
 rm -r dist/
 nano setup.py
 $ve_python setup.py sdist bdist_wheel
